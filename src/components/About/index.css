@@ -1,0 +1,11 @@
+.each-body-image {
+  height: 50%;
+  width: 50%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

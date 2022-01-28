@@ -1,0 +1,66 @@
+.router-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.wave-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.wave-logo {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.router-links-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.each-link {
+  text-decoration: none;
+  margin-right: 8px;
+  color: #6d396b;
+}
+
+.wave-heading {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .router-links-container {
+    width: 40%;
+  }
+
+  .router-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .wave-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .wave-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .router-links-container {
+    width: 30%;
+  }
+}
